@@ -21,7 +21,7 @@ public class ResearchService {
     public ResearchService(WebClient.Builder webClientBuilder,ObjectMapper objectMapper) {
         this.webClient = WebClient.builder().build();
         this.objectMapper = objectMapper;
-    }
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 
     public String processContent(ResearchRequest request) {
         //Build the prompt
